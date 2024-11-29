@@ -197,7 +197,7 @@ header('Content-Type: text/html; charset=utf-8');
             <!-- Build Details -->
             <div class="col-md-9 col-lg-10 main-content">
                 <div id="buildDetails">
-                <img src="" alt="" class="class-icon-large me-3" style="width: 100%; height: auto; border: 1px solid #D4AF37;">
+                <img src="" alt="" class="class-icon-large me-3" style="width: 100%; height: 522px; border: 1px solid #D4AF37;">
                     <!-- Build details will be shown here -->
                 </div>
             </div>
@@ -207,7 +207,7 @@ header('Content-Type: text/html; charset=utf-8');
     <!-- Templates -->
     <template id="classItemTemplate">
         <a href="#" class="list-group-item list-group-item-action d-flex align-items-center">
-        <img src="" alt="" class="class-icon me-3">
+        <img src="" alt="" class="class-icon me-3" style="border: 1px solid #D4AF37;">
             <span class="class-name"></span>
         </a>
     </template>
@@ -301,15 +301,15 @@ header('Content-Type: text/html; charset=utf-8');
             function displayBuilds(classKey) {
                 const builds = classData[classKey].builds;
                 const classIcon = classData[classKey].icon;
-                let html = '<img src="img/' + classIcon + '" alt="' + classData[classKey].name + '" class="class-icon-large me-5 mb-5" style="width: 100%; height: auto; border: 1px solid #D4AF37;">';
+                let html = '<img src="img/' + classIcon + '" alt="' + classData[classKey].name + '" class="class-icon-large me-5 mb-5" style="width: 100%; height: auto; border: 1px solid #D4AF37; border-radius: 8px;">';
                 
                 html += '<div class="row">';
                 
                 Object.entries(builds).forEach(([buildKey, build]) => {
                     html += `
                         <div class="col-md-6 mb-4">
-                            <div class="build-card">
-                                <img src="img/${build.icon}" alt="${build.name}" class="build-icon">
+                            <div class="build-card"  style="border-radius: 8px; border-bottom: 1px solid #b22222;">
+                                <img src="img/${build.icon}" alt="${build.name}" class="build-icon" style="border-top: 1px solid #D4AF37; width: 100%; height: 400px; object-fit: cover; border-radius: 8px;">
                                 <div class="card-body">
                                     <h3 class="card-title">${build.name}</h3>
                                     <p>${build.description}</p>
