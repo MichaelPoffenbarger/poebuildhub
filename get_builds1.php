@@ -27,6 +27,67 @@ $builds = [
             'passives' => 'Path towards Resolute Technique, Amplify, Bladedancer, and Cleaving. Pick up life nodes along the way.'
         ],
         // Add other warrior builds here
+        'warbringer' => [
+            'name' => 'Warbringer',
+            'overview' => 'A high-damage melee build that uses the Cyclone skill to clear enemies quickly.',
+            'leveling_guide' => 'Start with Ground Slam, transition to Cyclone at level 28. Focus on physical damage and attack speed nodes.',
+            'skill_gems' => [
+                'Cyclone',
+                'Melee Physical Damage Support',
+                'Fortify Support',
+                'Infused Channelling Support',
+                'Impale Support'
+            ],
+            'gear' => [
+                'Weapon: Two-handed Axe with high physical DPS',
+                'Helmet: Rare with life and resistances',
+                'Body Armour: Belly of the Beast for extra life',
+                'Gloves: Rare with attack speed and life',
+                'Boots: Rare with movement speed and resistances',
+                'Amulet: Rare with physical damage and life',
+                'Rings: Rare with life and resistances'
+            ],
+            'passives' => 'Path towards Resolute Technique, Amplify, Bladedancer, and Cleaving. Pick up life nodes along the way.'
+        ],
+        'thunderlord' => [
+            'name' => 'Thunderlord',
+            'overview' => 'A high-damage melee build that uses the Cyclone skill to clear enemies quickly.',
+            'leveling_guide' => 'Start with Ground Slam, transition to Cyclone at level 28. Focus on physical damage and attack speed nodes.',
+            'skill_gems' => [
+                'Cyclone',
+                'Melee Physical Damage Support',
+                'Thunderlord Support'
+            ],
+            'gear' => [
+                'Weapon: Two-handed Axe with high physical DPS',
+                'Helmet: Rare with life and resistances',
+                'Body Armour: Belly of the Beast for extra life',
+                'Gloves: Rare with attack speed and life',
+                'Boots: Rare with movement speed and resistances',
+                'Amulet: Rare with physical damage and life',
+                'Rings: Rare with life and resistances'
+            ],
+            'passives' => 'Path towards Resolute Technique, Amplify, Bladedancer, and Cleaving. Pick up life nodes along the way.'
+        ],
+        'earthquake' => [
+            'name' => 'Earthquake',
+            'overview' => 'A high-damage melee build that uses the Cyclone skill to clear enemies quickly.',
+            'leveling_guide' => 'Start with Ground Slam, transition to Cyclone at level 28. Focus on physical damage and attack speed nodes.',
+            'skill_gems' => [
+                'Cyclone',
+                'Melee Physical Damage Support',
+            ],
+            'gear' => [
+                'Weapon: Two-handed Axe with high physical DPS',
+                'Helmet: Rare with life and resistances',
+                'Body Armour: Belly of the Beast for extra life',
+                'Gloves: Rare with attack speed and life',
+                'Boots: Rare with movement speed and resistances',
+                'Amulet: Rare with physical damage and life',
+                'Rings: Rare with life and resistances'
+            ],
+            'passives' => 'Path towards Resolute Technique, Amplify, Bladedancer, and Cleaving. Pick up life nodes along the way.'
+        ]
     ],
     'sorceress' => [
         'arc_witch' => [
