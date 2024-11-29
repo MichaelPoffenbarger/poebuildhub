@@ -9,7 +9,7 @@ try {
         'warrior' => [
             'name' => 'Warrior',
             'description' => 'A fierce warrior who uses brute strength and raw power.',
-            'icon' => 'warriorbanner.png',
+            'icon' => 'warriorbanner1.png',
             'builds' => [
                 'cyclone_berserker' => [
                     'name' => 'Cyclone Berserker',
@@ -47,7 +47,7 @@ try {
                     'estDPS' => 'DPS: 1000',
                     'build_key' => 'thunderlord'
                 ],
-                'Earthquake' => [
+                'earthquake' => [
                     'name' => 'Earthquake',
                     'description' => 'This fearsome frontline fighter conjures ancestral spirits to pummel his foes.',
                     'icon' => 'titan.webp',
@@ -64,7 +64,7 @@ try {
         'sorceress' => [
             'name' => 'Sorceress',
             'description' => 'The Sorceress bends the elements to her will, using them to unleash devastation on her foes.',
-            'icon' => 'sorceress.webp',
+            'icon' => 'sorcbanner1.png',
             'builds' => [
                 'arc_witch' => [
                     'name' => 'Arc Witch',
@@ -95,7 +95,7 @@ try {
         'ranger' => [
             'name' => 'Ranger',
             'description' => 'A master of the bow who uses precision and agility to outmaneuver her foes.',
-            'icon' => 'ranger.webp',
+            'icon' => 'rangerbanner1.png',
             'builds' => [
                 'deadeye' => [
                     'name' => 'Deadeye',
@@ -111,7 +111,7 @@ try {
                 'shadow_assassin' => [
                     'name' => 'Shadow Assassin',
                     'description' => 'A master of the shadows who uses agility and stealth to outmaneuver his foes.',
-                    'icon' => 'shadow_assassin.webp',
+                    'icon' => 'pathfinder.webp',
                     'difficulty' => 'Hard',
                     'playstyle' => 'Melee/Ranged',
                     'damage_type' => 'Physical/Shadow',
@@ -124,12 +124,12 @@ try {
         'monk' => [
             'name' => 'Monk',
             'description' => 'A master of the fist who uses agility and precision to outmaneuver his foes.',
-            'icon' => 'monk.webp',
+            'icon' => 'monkbanner1.png',
             'builds' => [
                 'guardian' => [
                     'name' => 'Guardian',
                     'description' => 'A master of the fist who uses agility and precision to outmaneuver his foes.',
-                    'icon' => 'guardian.webp',
+                    'icon' => 'invoker.webp',
                     'difficulty' => 'Medium',
                     'playstyle' => 'Melee',
                     'damage_type' => 'Physical',
@@ -140,7 +140,7 @@ try {
                 'berserker' => [
                     'name' => 'Berserker',
                     'description' => 'A master of the fist who uses agility and precision to outmaneuver his foes.',
-                    'icon' => 'berserker.webp',
+                    'icon' => 'AcolyteofChayula.webp',
                     'difficulty' => 'Hard',
                     'playstyle' => 'Melee',
                     'damage_type' => 'Physical',
@@ -153,12 +153,12 @@ try {
         'mercenary' => [
             'name' => 'Mercenary',
             'description' => 'A master of the blade who uses agility and precision to outmaneuver his foes.',
-            'icon' => 'mercenary.webp',
+            'icon' => 'mercbanner1.png',
             'builds' => [
                 'gunslinger' => [
                     'name' => 'Gunslinger',
                     'description' => 'A master of the blade who uses agility and precision to outmaneuver his foes.',
-                    'icon' => 'gunslinger.webp',
+                    'icon' => 'witchhunter.webp',
                     'difficulty' => 'Medium',
                     'playstyle' => 'Ranged',
                     'damage_type' => 'Physical',
@@ -169,7 +169,7 @@ try {
                 'marauder' => [
                     'name' => 'Marauder',
                     'description' => 'A master of the blade who uses agility and precision to outmaneuver his foes.',
-                    'icon' => 'marauder.webp',
+                    'icon' => 'gemlinglegionnaire.webp',
                     'difficulty' => 'Hard',
                     'playstyle' => 'Melee',
                     'damage_type' => 'Physical',
@@ -182,12 +182,12 @@ try {
         'witch' => [
             'name' => 'Witch',
             'description' => 'A master of the arcane who uses her powers to control and dominate her foes.',
-            'icon' => 'witch.webp',
+            'icon' => 'witchbanner1.png',
             'builds' => [
                 'elementalist' => [
                     'name' => 'Elementalist',
                     'description' => 'A master of the arcane who uses her powers to control and dominate her foes.',
-                    'icon' => 'elementalist.webp',
+                    'icon' => 'infernalist.webp',
                     'difficulty' => 'Medium',
                     'playstyle' => 'Caster',
                     'damage_type' => 'Elemental',
@@ -198,7 +198,7 @@ try {
                 'necromancer' => [
                     'name' => 'Necromancer',
                     'description' => 'A master of the arcane who uses her powers to control and dominate her foes.',
-                    'icon' => 'necromancer.webp',
+                    'icon' => 'bloodmage.webp',
                     'difficulty' => 'Hard',
                     'playstyle' => 'Caster',
                     'damage_type' => 'Necromantic',
