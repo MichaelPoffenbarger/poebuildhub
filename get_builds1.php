@@ -114,6 +114,29 @@ $builds = [
             'passives' => 'Path towards elemental damage nodes, lightning damage nodes, and critical strike nodes. Don\'t forget to pick up life nodes.'
         ],
         // Add other sorceress builds here
+        'fire_witch' => [
+            'name' => 'Fire Witch',
+            'overview' => 'A fire-based caster that uses Fire Blast to clear screens of enemies efficiently.',
+            'leveling_guide' => 'Use Fire Blast until you get Fire Bolt at level 12. Focus on spell damage and fire damage nodes.',
+            'skill_gems' => [
+                'Fire Blast',
+                'Controlled Destruction Support',
+                'Fire Penetration Support',
+                'Elemental Focus Support',
+                'Increased Critical Strikes Support'
+            ],
+            'gear' => [
+                'Weapon: Wand or Sceptre with spell damage and cast speed',
+                'Shield: Rare with spell damage and life',
+                'Helmet: Rare with life and resistances',
+                'Body Armour: Tabula Rasa for early game, then rare with life and resistances',
+                'Gloves: Rare with cast speed and life',
+                'Boots: Rare with movement speed and resistances',
+                'Amulet: Rare with fire damage and cast speed',
+                'Rings: Rare with life and resistances'
+            ],
+            'passives' => 'Path towards elemental damage nodes, fire damage nodes, and critical strike nodes. Don\'t forget to pick up life nodes.'
+        ]
     ]
     // Add other classes here
 ];
