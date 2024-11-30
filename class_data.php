@@ -78,8 +78,8 @@ try {
                     'estDPS' => 'DPS: 1000',
                     'build_key' => 'stormweaver'
                 ],
-                'chronomancer' => [
-                    'name' => 'Chronomancer',
+                'fire_witch' => [
+                    'name' => 'Fire Witch',
                     'description' => 'Wields powerful temporal magic that can reset cooldowns and slow enemies.',
                     'icon' => 'chronomancer.webp',
                     'difficulty' => 'Hard',
