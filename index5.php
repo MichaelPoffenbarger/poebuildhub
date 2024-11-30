@@ -221,18 +221,49 @@ header('Content-Type: text/html; charset=utf-8');
             <h2 class="build-name mb-4"></h2>
             <div class="overview mb-4">
                 <h3>Overview</h3>
+                
                 <p class="overview-text"></p>
             </div>
             <div class="leveling-guide mb-4">
                 <h3>Leveling Guide</h3>
+                <h5>Act 1</h5>
+                <p class="leveling-text"></p>
+                <h5>Act 2</h5>
+                <p class="leveling-text"></p>
+                <h5>Act 3</h5>
+                <p class="leveling-text"></p>
+                <h5>Act 4</h5>
+                <p class="leveling-text"></p>
+                <h5>Act 5</h5>
+                <p class="leveling-text"></p>
+                <h5>Act 6</h5>
+                <p class="leveling-text"></p>
+                <h5>Act 7</h5>
+                <p class="leveling-text"></p>
+                <h5>Act 8</h5>
+                <p class="leveling-text"></p>
+                <h5>Act 9</h5>
+                <p class="leveling-text"></p>
+                <h5>Act 10</h5>
                 <p class="leveling-text"></p>
             </div>
             <div class="skill-gems mb-4">
                 <h3>Skill Gems</h3>
+                <h5>Early Game Gems</h5>
+                <ul class="skill-gems-list"></ul>
+                <h5>Mid Game Gems</h5>
+                <ul class="skill-gems-list"></ul>
+                <h5>Late Game Gems</h5>
                 <ul class="skill-gems-list"></ul>
             </div>
             <div class="gear mb-4">
                 <h3>Gear</h3>
+                <ul class="gear-list"></ul>
+                <h5>Early Game Gear</h5>
+                <ul class="gear-list"></ul>
+                <h5>Mid Game Gear</h5>
+                <ul class="gear-list"></ul>
+                <h5>Late Game Gear</h5>
                 <ul class="gear-list"></ul>
             </div>
             <div class="passives mb-4">
@@ -308,7 +339,7 @@ header('Content-Type: text/html; charset=utf-8');
                 Object.entries(builds).forEach(([buildKey, build]) => {
                     html += `
                         <div class="col-md-6 mb-4">
-                            <div class="build-card"  style="border-radius: 8px; border-bottom: 1px solid #b22222;">
+                            <div class="build-card" style="border-radius: 8px; border-bottom: 1px solid #b22222; background-image: url(svg/poe2logo1.svg); background-size: 200px; background-position: bottom right; background-repeat: no-repeat;">
                                 <img src="img/${build.icon}" alt="${build.name}" class="build-icon" style="border-top: 1px solid #D4AF37; width: 100%; height: 400px; object-fit: cover; border-radius: 8px;">
                                 <div class="card-body">
                                     <h3 class="card-title">${build.name}</h3>
