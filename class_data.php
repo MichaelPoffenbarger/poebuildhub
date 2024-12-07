@@ -11,7 +11,7 @@ try {
             'description' => 'A fierce warrior who uses brute strength and raw power.',
             'icon' => 'warriorbanner1.png',
             'builds' => [
-                'cyclone_berserker' => [
+                'Coming Soon' => [
                     'name' => 'Cyclone Berserker',
                     'description' => 'The Cyclone Berserker is a build that focuses on using the Warrior\'s basic attacks to create a whirlwind of damage.',
                     'icon' => 'titan.webp',
@@ -23,7 +23,7 @@ try {
                     'estDPS' => 'DPS: 1000',
                     'build_key' => 'cyclone_berserker'
                 ],
-                'warbringer' => [
+                'Coming Soon' => [
                     'name' => 'Warbringer',
                     'description' => 'This fearsome frontline fighter conjures ancestral spirits to pummel his foes.',
                     'icon' => 'warbringer.webp',
@@ -35,7 +35,7 @@ try {
                     'estDPS' => 'DPS: 1000',
                     'build_key' => 'warbringer'
                 ],
-                'thunderlord' => [
+                'Coming Soon' => [
                     'name' => 'Thunderlord',
                     'description' => 'This fearsome frontline fighter conjures ancestral spirits to pummel his foes.',
                     'icon' => 'warrior.webp',
@@ -47,8 +47,8 @@ try {
                     'estDPS' => 'DPS: 1000',
                     'build_key' => 'thunderlord'
                 ],
-                'earthquake' => [
-                    'name' => 'Earthquake',
+                'Coming Soon' => [
+                    'name' => 'Coming Soon',
                     'description' => 'This fearsome frontline fighter conjures ancestral spirits to pummel his foes.',
                     'icon' => 'titan.webp',
                     'difficulty' => 'Hard',
@@ -66,7 +66,7 @@ try {
             'description' => 'The Sorceress bends the elements to her will, using them to unleash devastation on her foes.',
             'icon' => 'sorcbanner1.png',
             'builds' => [
-                'arc_witch' => [
+                'Coming Soon' => [
                     'name' => 'Arc Witch',
                     'description' => 'A lightning-based caster that uses Arc to clear screens of enemies efficiently.',
                     'icon' => 'stormweaver.webp',
@@ -78,7 +78,7 @@ try {
                     'estDPS' => 'DPS: 1000',
                     'build_key' => 'stormweaver'
                 ],
-                'fire_witch' => [
+                'Coming Soon' => [
                     'name' => 'Fire Witch',
                     'description' => 'Wields powerful temporal magic that can reset cooldowns and slow enemies.',
                     'icon' => 'chronomancer.webp',
@@ -97,7 +97,7 @@ try {
             'description' => 'A master of the bow who uses precision and agility to outmaneuver her foes.',
             'icon' => 'rangerbanner1.png',
             'builds' => [
-                'deadeye' => [
+                'Coming Soon' => [
                     'name' => 'Deadeye',
                     'description' => 'A master of the bow who uses precision and agility to outmaneuver his foes.',
                     'icon' => 'deadeye.webp',
@@ -108,7 +108,7 @@ try {
                     'estMana' => 'Mana: 100',
                     'estDPS' => 'DPS: 1000'
                 ],
-                'shadow_assassin' => [
+                'Coming Soon' => [
                     'name' => 'Shadow Assassin',
                     'description' => 'A master of the shadows who uses agility and stealth to outmaneuver his foes.',
                     'icon' => 'pathfinder.webp',
@@ -126,7 +126,7 @@ try {
             'description' => 'A master of the fist who uses agility and precision to outmaneuver his foes.',
             'icon' => 'monkbanner1.png',
             'builds' => [
-                'guardian' => [
+                'Coming Soon' => [
                     'name' => 'Guardian',
                     'description' => 'A master of the fist who uses agility and precision to outmaneuver his foes.',
                     'icon' => 'invoker.webp',
@@ -137,7 +137,7 @@ try {
                     'estMana' => 'Mana: 100',
                     'estDPS' => 'DPS: 1000'
                 ],
-                'berserker' => [
+                'Coming Soon' => [
                     'name' => 'Berserker',
                     'description' => 'A master of the fist who uses agility and precision to outmaneuver his foes.',
                     'icon' => 'AcolyteofChayula.webp',
@@ -155,7 +155,7 @@ try {
             'description' => 'A master of the blade who uses agility and precision to outmaneuver his foes.',
             'icon' => 'mercbanner1.png',
             'builds' => [
-                'gunslinger' => [
+                'Coming Soon' => [
                     'name' => 'Gunslinger',
                     'description' => 'A master of the blade who uses agility and precision to outmaneuver his foes.',
                     'icon' => 'witchhunter.webp',
@@ -166,7 +166,7 @@ try {
                     'estMana' => 'Mana: 100',
                     'estDPS' => 'DPS: 1000'
                 ],
-                'marauder' => [
+                'Coming Soon' => [
                     'name' => 'Marauder',
                     'description' => 'A master of the blade who uses agility and precision to outmaneuver his foes.',
                     'icon' => 'gemlinglegionnaire.webp',
@@ -184,8 +184,8 @@ try {
             'description' => 'A master of the arcane who uses her powers to control and dominate her foes.',
             'icon' => 'witchbanner1.png',
             'builds' => [
-                'elementalist' => [
-                    'name' => 'Elementalist',
+                'Coming Soon' => [
+                    'name' => 'Coming Soon',
                     'description' => 'A master of the arcane who uses her powers to control and dominate her foes.',
                     'icon' => 'infernalist.webp',
                     'difficulty' => 'Medium',
@@ -195,7 +195,7 @@ try {
                     'estMana' => 'Mana: 100',
                     'estDPS' => 'DPS: 1000'
                 ],
-                'necromancer' => [
+                'Coming Soon' => [
                     'name' => 'Necromancer',
                     'description' => 'A master of the arcane who uses her powers to control and dominate her foes.',
                     'icon' => 'bloodmage.webp',
