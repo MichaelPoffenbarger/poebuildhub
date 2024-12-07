@@ -69,8 +69,8 @@ $builds = [
             ],
             'passives' => 'Path towards Resolute Technique, Amplify, Bladedancer, and Cleaving. Pick up life nodes along the way.'
         ],
-        'earthquake' => [
-            'name' => 'Earthquake',
+        'Coming Soon' => [
+            'name' => 'Coming Soon',
             'overview' => 'A high-damage melee build that uses the Cyclone skill to clear enemies quickly.',
             'leveling_guide' => 'Start with Ground Slam, transition to Cyclone at level 28. Focus on physical damage and attack speed nodes.',
             'skill_gems' => [
