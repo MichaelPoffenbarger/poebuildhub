@@ -196,6 +196,9 @@ header('Content-Type: text/html; charset=utf-8');
 
             <!-- Build Details -->
             <div class="col-md-9 col-lg-10 main-content">
+                <p>*Please Note: This site is still under active development and is not yet complete. Some classes and builds may not be available yet.</p>
+                <p>*If you have a build you would like to see featured, <a href="https://discord.gg/Skkwaj7e" target="_blank">join me on Discord</a> and post it in the #builds channel.</p>
+                
                 <div id="buildDetails">
                 <img src="" alt="" class="class-icon-large me-3" style="width: 100%; height: 522px; border: 1px solid #D4AF37;">
                     <!-- Build details will be shown here -->
