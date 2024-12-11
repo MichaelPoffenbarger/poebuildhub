@@ -90,8 +90,8 @@ $builds = [
         ]
     ],
     'sorceress' => [
-        'arc_witch' => [
-            'name' => 'Arc Witch',
+        'Coming Soon' => [
+            'name' => 'Coming Soon',
             'overview' => 'A lightning-based caster that uses Arc to clear screens of enemies efficiently.',
             'leveling_guide' => 'Use Freezing Pulse until you get Arc at level 12. Focus on spell damage and lightning damage nodes.',
             'skill_gems' => [
@@ -114,8 +114,8 @@ $builds = [
             'passives' => 'Path towards elemental damage nodes, lightning damage nodes, and critical strike nodes. Don\'t forget to pick up life nodes.'
         ],
         // Add other sorceress builds here
-        'fire_witch' => [
-            'name' => 'Fire Witch',
+        'Coming Soon' => [
+            'name' => 'Coming Soon',
             'overview' => 'A fire-based caster that uses Fire Blast to clear screens of enemies efficiently.',
             'leveling_guide' => 'Use Fire Blast until you get Fire Bolt at level 12. Focus on spell damage and fire damage nodes.',
             'skill_gems' => [
